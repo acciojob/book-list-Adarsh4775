@@ -8,9 +8,44 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <h1>My<mark>Book</mark>List</h1>
+	<form>
+		<label for="title"><b>Title:</b></label>
+		<br>
+		<input type="text" id="title">
+         <br>
+		<br>
+		<label for="author"><b>Author:</b></label>
+		<br>
+		<input type="text" id="author">
+	<br>
+		<br>
+		<label for="isbn"><b>ISBN#</b></label>
+		<br>
+		<input type="number" id="isbn">
+		<br>
+		<br>
+		<button id="boot" type="submit">Add Book</button>
+	</form>
+<br>
+	<br>
+<br>
+	<table class="table table-striped" width=600px;>
+		<thead>
+			<tr>
+				<th>Title</th>
+				<th>Author</th>
+				<th>ISBN#</th>
+			</tr>
+		</thead>
+		<tbody id="book-list">
 
+		</tbody>
+	</table>
+	
+	
+	<script type="text/javascript" src="./script.js">
+</script>
 </body>
 
 </html>

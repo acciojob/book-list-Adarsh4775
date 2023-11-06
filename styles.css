@@ -1,1 +1,29 @@
 /*  your css code here. If applicable */
+mark{
+	color:blue;
+	background-color:white;
+}
+h1{
+	text-align:center;
+	font-family:cursive;
+}
+button{
+	background-color:blue;
+	color:white;
+	border:none;
+	border-radius:5px;
+	padding:7px;
+	cursor:pointer;
+}
+button:hover{
+	color:hotpink;
+}
+input{
+	width:600px;
+}
+table,th{
+	border: 1px solid ghostwhite;
+}
+table{
+	border-collapse:collapse;
+}
