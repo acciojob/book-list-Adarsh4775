@@ -8,7 +8,7 @@ function  bookList(){
 
 	let body = document.getElementById("book-list");
 	
-	let button = document.getElementById("boot");
+	let button = document.getElementById("submit");
 
 	
 	
@@ -38,6 +38,8 @@ function  bookList(){
 		authorCell.textContent = author1;
 		isbnCell.textContent = isbn1;
          delButton.textContent = "Clear";
+		delButton.style.backgroundColor="blue";
+		delButton.style.color = "red";
 		delButton.className = "delete";
 		deleteCell.appendChild(delButton);
 
